@@ -1,2 +1,2 @@
 # NetworkEnum.sh
-Network protocol script for Kali Linuxs
+Network protocol script for Kali Linux
