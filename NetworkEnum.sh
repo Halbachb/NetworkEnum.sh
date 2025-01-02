@@ -44,7 +44,7 @@ function parse_protocols(){
 	#echo "Command:  tshark -r $i -Y hsrp -T fields -e hsrp.auth_data -e hsrp.version -e hsrp.priority -e hsrp.auth_data -e hsrp.virt_ip"
 
 
-	tshark -r $1 -Y hsrp -T fields -e hsrp.auth_data -e hsrp.version -e hsrp.priority -e hsrp.auth_data -e hsrp.virt_ip
+	tshark -r $1 -Y hsrp -T fields -e hsrp.auth_data -e hsrp.version -e hsrp.priority -e hsrp.auth_data -e hsrp.virt_ip | head
 
 }
 
