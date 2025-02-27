@@ -100,7 +100,7 @@ function parse_protocols(){
 	#parse ospf
 	echo "OSPF Information"
 	echo "****************"
-	tshark -r $1 -Y ospf -T fields -e ospf.msg -e ospf.area_id -e ospf.auth.type -e ospf.auth_data -e ospf.hello.router_priority | head
+	tshark -r $1 -Y ospf -T fields -e ospf.msg -e ospf.area_id -e ospf.auth.type -e ospf.at.auth_data -e ospf.hello.router_priority | head
 
 	#parse CDP
 	echo "CDP Information"
