@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
-cat ./scanny-logo2.txt
+cat ./carl-logo2.txt
+if [ -e "./carl-logo2.txt" ]; then
+    cat ./carl-logo2.txt
+else
+    echo "Network Enumeration Tool."
+fi
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
