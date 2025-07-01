@@ -11,50 +11,7 @@ Network protocol analysis script for Kali Linux
 
 ```
 $ sudo ./NetworkEnum.sh                        
-[sudo] password for assess: 
-                               ..        dOoO     0O'l                  .  
-             ,.              dOOkO0OkOk:0kkkkkKXXKkkkkOKKO.             .: 
-            :;.          l0X0kkkkkkkkkkkkkkkkkkkkkkkkkkkkkOKo:         .'ll
-           .xd',      .OOkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkOk      .';dx
-           .;..:OXl    dkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkko   cX0o;..;
-             .'lxkxdlkkkkkkkxxkkkxxxxkkkkkkkkkkkkkkkkkkkooxkdccc:coxkkd:.. 
-               .;c:,cxkkkxxxxc,...  ...;cxkkkkkkkkkkkkkl,:do;,,,,,,:lc'.   
-   lxollxk.         lxkxxxo'              'okkkkkkkkkkko,,,,,,,,,lo.       
- l,       .c.      lkkxxd'                  'dkkkkkkkkkkxdoolloodkk:       
-;.          '.    'kkxxl. .........          .okkkkkkkkkkkkkkkkkkkkk.      
-.           ..    .xkxo...............         okkkkkkkkkkkkkkkkkkkd.      
-.           .     ;kkx..   'lol;.......        .kkkkkkkkkkkkkkkkkkkk'      
-  ..     ..       xkkl'    .NNNN0:....'.        lkkkkkkkkkkkkkkkkkkkd      
-     ....        'kkkc..'.,xNNNNNN,....'.       ,kkkkkkkkkkkkkkkkkkkk.     
-       ..:.      ::kk:..KNNNNNNNNNc....'.       ,kkkkkkkkkkkkkkkkkkk:;     
-      oodoOX.    .:kkc'.;XNNNNNO:l'....'        :kkkkkkkkkkkkkkkkkkk,.     
-       kkddkkO    lkkd.'.,oO0K0: .....'.        xkkkkkkkkkkkkkkkkkkkl      
-       xxxoxkkO0KKkkkk;.''..........'.         ;kkkkkkkkkkkkkkkkkkkko      
-       okxdxkkkkkkkkkkx' ...''''''...         'kkkkkkkkkkkkkkkkkkkkkx      
-             :kkkkkkkkkx,                    ;kkkkkkkkkkkkkkkkkkkkkkc      
-               .kkkkkkkkkl.                .lkkkkkkkkkkkkkkkkkkkkkkk.      
-                  .kkkkkkkxo;..        ..;oxkkkkkkkkkkkkkkkkkkkkkkkk       
-                   kkkkkkkkkkxdoc::::codxkk0kk000kkkxkkkkkkkkkkkkkkx       
-                   dkkkkkkdkkkkkkkkkkkkkkkkX0kkkKXKXkkOkkkkOkkkkkkko       
-                   ckkkkOkckOkkkkkkkkkkkkkokXK0kO0O0koollkkkkkkkkkk:       
-                   .kkkkkkkOOOOOOOOOOOOOOo,okO0l;;;cO;;;;okkkkkkkkk        
-                    xkkkkkkkkkkkkkkkkkkkkk0KKKKdc:;:K:;;cxkkkkkkkkd        
-                    ckkkkkkkkkkkkkkkkkkkkkOOkkkdccclXo:cxkkkkkkkkk;        
-                    .kkkkkkkkkkkkkkkkkkkkkkkkk0KxlclXkdkkkkkkkkkkk         
-                     ckkkkkkkkkkkkkkkkkkkkkkkONOkkdd0kkkkkkkOkkkk;         
-                      kkkkkkkkkkkkkkkkkkkkkkkkKOkkkkkkkkkkkkkkkkk          
-                      c'kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk.c          
-                        ;xkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkx'            
-                          ,ckkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk:;              
-                           okkkkkkkkkkkkkkkkkkkkkkkkkkkkkk,                
-                          .O0OkOkkkkkkkkkkkkkkkkkkkkkkkOkOO                
-                          ,kkOO00OkkOkkkkkkkkkkkkkOkkO00Okk.               
-                          ;kkkkkkkkk0Ol . .l.kOOkO0OOOkkkkk'               
-                           kkkkkkkkkk00      x0Okkkkkkkkkkk.               
-                            kkkkkkkkkO0.     00kkkkkkkkkkkx                
-                              .xkkkkk;      .0Okkkkkkkkkkc                 
-                                              kkkkkkkkx                    
-                                                'lxxc                      
+
 Network Enumeration and Testing
 You are root.
 Menu:
@@ -66,7 +23,7 @@ Enter your choice: 0
 Setup
 Enter target file location: ./targets.txt
 [+]Target file saved.
-Enter domain name: netspi.com
+Enter domain name: testtest.test
 You are root.
 Menu:
 0. Setup
@@ -77,7 +34,7 @@ Enter your choice: 0
 Setup
 Enter target file location: ./targets.txt
 [+]Target file saved.
-Enter domain name: netspi.com
+Enter domain name: testtest.test
 You are root.
 Menu:
 0. Setup
@@ -88,7 +45,7 @@ Enter your choice: Enter your choice: 0
 Setup
 Enter target file location: ./targets.txt
 [+]Target file saved.
-Enter domain name: netspi.com
+Enter domain name: testtest.test
 You are root.
 Menu:
 0. Setup
@@ -185,6 +142,6 @@ Nmap done: 1 IP address (1 host up) scanned in 0.12 seconds
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-02 20:02 CST
 Nmap scan report for localhost (127.0.0.1)
 Nmap done: 1 IP address (0 hosts up) scanned in 0.00 seconds
-netspi.com
-[*] std: Performing General Enumeration against: netspi.com...
+testtest.test
+[*] std: Performing General Enumeration against: testtest.test...
 ```
