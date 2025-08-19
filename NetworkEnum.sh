@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cat ./carl-logo2.txt
+# Display banner if available
 if [ -e "./carl-logo2.txt" ]; then
     cat ./carl-logo2.txt
 else
@@ -64,7 +64,7 @@ function udp_discovery_scan(){
 
 	
 	filename="Client_udp_discovery-`date +"%d-%m-%Y-%h-%H-%M-%S"`"
-	nmap -sU -Pn -min-hostgroup 128 -p53,69,123,161,111,514,1900  -iL $1 -oA $filename
+        nmap -sU -Pn --min-hostgroup 128 -p53,69,123,161,111,514,1900  -iL $1 -oA $filename
 }
 
 function reverse_dns_scan(){
