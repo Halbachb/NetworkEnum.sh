@@ -3,9 +3,10 @@ Network protocol analysis script for Kali Linux
 <br />
 # Instructions
 1. Install dependencies <br />
-2. Run setup (Option 1), this is not persistent so you will need to reenter it each time you run the script. <br />
-3. choose Unauth Network Info Gather or  TCPDump and parse to begin with. All output is displayed and files saved in the local folder. <br />
+2. Run setup (Option 0). This is not persistent, so you will need to reenter it each time you run the script. <br />
+3. Choose Unauth Network Info Gather (Option 1) or TCPDump and parse (Option 2) to begin. All output is displayed, and files are saved in the local folder. <br />
 4. Run `bats tests` to execute the test suite and verify functionality. <br />
+
 
 <br />
 # Example
