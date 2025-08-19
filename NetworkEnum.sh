@@ -142,7 +142,7 @@ function TCPDump() {
 		*) echo "invalid response";;
 	esac
 
-	#Get lenght of time to perform packet capture
+	#Get length of time to perform packet capture
 	read -p "Enter capture time length in seconds (greater than 30 less than 900): " tcpDumpTime
 
 
